@@ -1,12 +1,12 @@
 {
-  "name": "component-library-react",
+  "name": "bcd-ui-component-react",
   "sideEffects": false,
-  "version": "0.0.1",
-  "private": true,
-  "description": "React specific wrapper for component-library",
+  "version": "0.0.3",
+  "private": false,
+  "description": "React specific wrapper for bcd-ui-component",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic.git"
+    "url": "https://github.com/guang1234567/bcd-ui-component-react.git"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
@@ -15,30 +15,30 @@
     "tsc": "tsc -p .",
     "rollup": "rollup -c"
   },
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "devDependencies": {
-    "@types/jest": "23.3.9",
-    "@types/node": "10.12.9",
-    "@types/react": "16.7.6",
-    "@types/react-dom": "16.0.9",
-    "jest": "^23.0.0",
-    "jest-dom": "^3.0.2",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
     "np": "^3.1.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "typescript": "^3.3.4000"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "rollup": "^2.35.1",
+    "typescript": "^4.0.3"
   },
   "dependencies": {
-    "component-library": "^0.0.1"
+    "bcd-ui-component": "^0.0.5"
   },
   "peerDependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "jest": {
     "preset": "ts-jest",
