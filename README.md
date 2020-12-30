@@ -1,3 +1,11 @@
+React specific wrapper for bcd-ui-component".
+
+[bcd-ui-component](https://github.com/guang1234567/bcd-ui-component.git) is here.
+
+
+
+
+
 # stencil-ds-react-template
 
 This is an example repo of building plugins.
